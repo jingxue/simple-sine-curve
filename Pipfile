@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ray = {extras = ["tune"], version = "*"}
+tensortrade = "==1.0.1b0"
+symfit = "*"
+tree = "*"
+dm-tree = "*"
+opencv-python = "*"
+torch = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
